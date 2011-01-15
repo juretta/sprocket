@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* Sprocket_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Sprocket_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F8048358126AD77A00F0A5B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8048357126AD77A00F0A5B4 /* UIKit.framework */; };
+		F8E2629612E18A0500F3A497 /* CRVActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2628512E18A0500F3A497 /* CRVActivityView.h */; };
+		F8E2629712E18A0500F3A497 /* CRVActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2628612E18A0500F3A497 /* CRVActivityView.m */; };
+		F8E2629812E18A0500F3A497 /* CRVFileUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2628712E18A0500F3A497 /* CRVFileUpload.h */; };
+		F8E2629912E18A0500F3A497 /* CRVFileUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2628812E18A0500F3A497 /* CRVFileUpload.m */; };
+		F8E2629A12E18A0500F3A497 /* CRVGestureDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2628912E18A0500F3A497 /* CRVGestureDetection.h */; };
+		F8E2629B12E18A0500F3A497 /* CRVGestureDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2628A12E18A0500F3A497 /* CRVGestureDetection.m */; };
+		F8E2629E12E18A0500F3A497 /* CRVLabelBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2628D12E18A0500F3A497 /* CRVLabelBox.h */; };
+		F8E2629F12E18A0500F3A497 /* CRVLabelBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2628E12E18A0500F3A497 /* CRVLabelBox.m */; };
+		F8E262A012E18A0500F3A497 /* CRVLoadingTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2628F12E18A0500F3A497 /* CRVLoadingTableCell.h */; };
+		F8E262A112E18A0500F3A497 /* CRVLoadingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2629012E18A0500F3A497 /* CRVLoadingTableCell.m */; };
+		F8E262A212E18A0500F3A497 /* CRVMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2629112E18A0500F3A497 /* CRVMacros.h */; };
+		F8E262A312E18A0500F3A497 /* NSDate+CRVDateAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2629212E18A0500F3A497 /* NSDate+CRVDateAdditions.h */; };
+		F8E262A412E18A0500F3A497 /* NSDate+CRVDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2629312E18A0500F3A497 /* NSDate+CRVDateAdditions.m */; };
+		F8E262A512E18A0500F3A497 /* NSString+CRVStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2629412E18A0500F3A497 /* NSString+CRVStringAdditions.h */; };
+		F8E262A612E18A0500F3A497 /* NSString+CRVStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2629512E18A0500F3A497 /* NSString+CRVStringAdditions.m */; };
+		F8E262A812E18A1F00F3A497 /* Sprocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E262A712E18A1F00F3A497 /* Sprocket.h */; };
+		F8E262F512E18D1600F3A497 /* UIView+CRVViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E262F312E18D1600F3A497 /* UIView+CRVViewAdditions.h */; };
+		F8E262F612E18D1600F3A497 /* UIView+CRVViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E262F412E18D1600F3A497 /* UIView+CRVViewAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* Sprocket_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprocket_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libSprocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSprocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8048357126AD77A00F0A5B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8E2628512E18A0500F3A497 /* CRVActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRVActivityView.h; path = Classes/Sprocket/CRVActivityView.h; sourceTree = "<group>"; };
+		F8E2628612E18A0500F3A497 /* CRVActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRVActivityView.m; path = Classes/Sprocket/CRVActivityView.m; sourceTree = "<group>"; };
+		F8E2628712E18A0500F3A497 /* CRVFileUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRVFileUpload.h; path = Classes/Sprocket/CRVFileUpload.h; sourceTree = "<group>"; };
+		F8E2628812E18A0500F3A497 /* CRVFileUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRVFileUpload.m; path = Classes/Sprocket/CRVFileUpload.m; sourceTree = "<group>"; };
+		F8E2628912E18A0500F3A497 /* CRVGestureDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRVGestureDetection.h; path = Classes/Sprocket/CRVGestureDetection.h; sourceTree = "<group>"; };
+		F8E2628A12E18A0500F3A497 /* CRVGestureDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRVGestureDetection.m; path = Classes/Sprocket/CRVGestureDetection.m; sourceTree = "<group>"; };
+		F8E2628D12E18A0500F3A497 /* CRVLabelBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRVLabelBox.h; path = Classes/Sprocket/CRVLabelBox.h; sourceTree = "<group>"; };
+		F8E2628E12E18A0500F3A497 /* CRVLabelBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRVLabelBox.m; path = Classes/Sprocket/CRVLabelBox.m; sourceTree = "<group>"; };
+		F8E2628F12E18A0500F3A497 /* CRVLoadingTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRVLoadingTableCell.h; path = Classes/Sprocket/CRVLoadingTableCell.h; sourceTree = "<group>"; };
+		F8E2629012E18A0500F3A497 /* CRVLoadingTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRVLoadingTableCell.m; path = Classes/Sprocket/CRVLoadingTableCell.m; sourceTree = "<group>"; };
+		F8E2629112E18A0500F3A497 /* CRVMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRVMacros.h; path = Classes/Sprocket/CRVMacros.h; sourceTree = "<group>"; };
+		F8E2629212E18A0500F3A497 /* NSDate+CRVDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+CRVDateAdditions.h"; path = "Classes/Sprocket/NSDate+CRVDateAdditions.h"; sourceTree = "<group>"; };
+		F8E2629312E18A0500F3A497 /* NSDate+CRVDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CRVDateAdditions.m"; path = "Classes/Sprocket/NSDate+CRVDateAdditions.m"; sourceTree = "<group>"; };
+		F8E2629412E18A0500F3A497 /* NSString+CRVStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CRVStringAdditions.h"; path = "Classes/Sprocket/NSString+CRVStringAdditions.h"; sourceTree = "<group>"; };
+		F8E2629512E18A0500F3A497 /* NSString+CRVStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CRVStringAdditions.m"; path = "Classes/Sprocket/NSString+CRVStringAdditions.m"; sourceTree = "<group>"; };
+		F8E262A712E18A1F00F3A497 /* Sprocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sprocket.h; path = Classes/Sprocket/Sprocket.h; sourceTree = "<group>"; };
+		F8E262F312E18D1600F3A497 /* UIView+CRVViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+CRVViewAdditions.h"; path = "Classes/Sprocket/UIView+CRVViewAdditions.h"; sourceTree = "<group>"; };
+		F8E262F412E18D1600F3A497 /* UIView+CRVViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CRVViewAdditions.m"; path = "Classes/Sprocket/UIView+CRVViewAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				F8048358126AD77A00F0A5B4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libSprocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Sprocket */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = Sprocket;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8048357126AD77A00F0A5B4 /* UIKit.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8E262A712E18A1F00F3A497 /* Sprocket.h */,
+				F8E2628512E18A0500F3A497 /* CRVActivityView.h */,
+				F8E2628612E18A0500F3A497 /* CRVActivityView.m */,
+				F8E2628712E18A0500F3A497 /* CRVFileUpload.h */,
+				F8E2628812E18A0500F3A497 /* CRVFileUpload.m */,
+				F8E2628912E18A0500F3A497 /* CRVGestureDetection.h */,
+				F8E2628A12E18A0500F3A497 /* CRVGestureDetection.m */,
+				F8E2628D12E18A0500F3A497 /* CRVLabelBox.h */,
+				F8E2628E12E18A0500F3A497 /* CRVLabelBox.m */,
+				F8E2628F12E18A0500F3A497 /* CRVLoadingTableCell.h */,
+				F8E2629012E18A0500F3A497 /* CRVLoadingTableCell.m */,
+				F8E2629112E18A0500F3A497 /* CRVMacros.h */,
+				F8E2629212E18A0500F3A497 /* NSDate+CRVDateAdditions.h */,
+				F8E2629312E18A0500F3A497 /* NSDate+CRVDateAdditions.m */,
+				F8E2629412E18A0500F3A497 /* NSString+CRVStringAdditions.h */,
+				F8E2629512E18A0500F3A497 /* NSString+CRVStringAdditions.m */,
+				F8E262F312E18D1600F3A497 /* UIView+CRVViewAdditions.h */,
+				F8E262F412E18D1600F3A497 /* UIView+CRVViewAdditions.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* Sprocket_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* Sprocket_Prefix.pch in Headers */,
+				F8E2629612E18A0500F3A497 /* CRVActivityView.h in Headers */,
+				F8E2629812E18A0500F3A497 /* CRVFileUpload.h in Headers */,
+				F8E2629A12E18A0500F3A497 /* CRVGestureDetection.h in Headers */,
+				F8E2629E12E18A0500F3A497 /* CRVLabelBox.h in Headers */,
+				F8E262A012E18A0500F3A497 /* CRVLoadingTableCell.h in Headers */,
+				F8E262A212E18A0500F3A497 /* CRVMacros.h in Headers */,
+				F8E262A312E18A0500F3A497 /* NSDate+CRVDateAdditions.h in Headers */,
+				F8E262A512E18A0500F3A497 /* NSString+CRVStringAdditions.h in Headers */,
+				F8E262A812E18A1F00F3A497 /* Sprocket.h in Headers */,
+				F8E262F512E18D1600F3A497 /* UIView+CRVViewAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* Sprocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "Sprocket" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sprocket;
+			productName = Sprocket;
+			productReference = D2AAC07E0554694100DB518D /* libSprocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "Sprocket" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* Sprocket */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* Sprocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E2629712E18A0500F3A497 /* CRVActivityView.m in Sources */,
+				F8E2629912E18A0500F3A497 /* CRVFileUpload.m in Sources */,
+				F8E2629B12E18A0500F3A497 /* CRVGestureDetection.m in Sources */,
+				F8E2629F12E18A0500F3A497 /* CRVLabelBox.m in Sources */,
+				F8E262A112E18A0500F3A497 /* CRVLoadingTableCell.m in Sources */,
+				F8E262A412E18A0500F3A497 /* NSDate+CRVDateAdditions.m in Sources */,
+				F8E262A612E18A0500F3A497 /* NSString+CRVStringAdditions.m in Sources */,
+				F8E262F612E18D1600F3A497 /* UIView+CRVViewAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/Sprocket.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sprocket_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Sprocket;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/Sprocket.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sprocket_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Sprocket;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "Sprocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "Sprocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
