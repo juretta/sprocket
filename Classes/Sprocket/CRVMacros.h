@@ -48,3 +48,8 @@
 #  define CRVDEBUGSIZE(size, msg) /* */
 #  define CRVDEBUGTRANSFORM(transform, msg) /* */
 #endif
+
+
+
+//
+#define List(...) ([NSArray arrayWithObjects:__VA_ARGS__])
