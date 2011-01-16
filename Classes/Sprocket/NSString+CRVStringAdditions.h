@@ -29,4 +29,5 @@
 -(NSString *) stringByCleaningUpNewlines;
 -(BOOL) isEmpty;
 -(NSString *) urlEscape;
+-(NSString *) stringByConvertingUnderscoreToCamelCase;
 @end

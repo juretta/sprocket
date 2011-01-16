@@ -61,4 +61,20 @@
 	return [(NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (CFStringRef)self, NULL, CFSTR(":/?#[]@!$&’()*+,;="), kCFStringEncodingUTF8) autorelease];
 }
 
+-(NSString *) stringByConvertingUnderscoreToCamelCase {
+	
+	NSArray *components = [self componentsSeparatedByString:@"_"];
+	NSMutableString * result = [[[NSMutableString alloc] init] autorelease];
+	
+	for (int i = 0; i < [components count]; i++) {
+		NSString *component = [components objectAtIndex:i];		
+		if(i > 0) {
+			component = [component stringByReplacingCharactersInRange:NSMakeRange(0,1)  
+														   withString:[[component  substringToIndex:1] capitalizedString]];	
+		}
+		[result appendString:component];
+	}
+	return result;
+}
+
 @end

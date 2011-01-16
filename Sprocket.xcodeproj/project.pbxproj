@@ -10,6 +10,8 @@
 		AA747D9F0F9514B9006C5449 /* Sprocket_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Sprocket_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		F8048358126AD77A00F0A5B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8048357126AD77A00F0A5B4 /* UIKit.framework */; };
+		F820AB3612E2DA96004E5252 /* TestCRVStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F820AB3512E2DA96004E5252 /* TestCRVStringAdditions.m */; };
+		F820AB3712E2DAA6004E5252 /* NSString+CRVStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2629512E18A0500F3A497 /* NSString+CRVStringAdditions.m */; };
 		F8E2629612E18A0500F3A497 /* CRVActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2628512E18A0500F3A497 /* CRVActivityView.h */; };
 		F8E2629712E18A0500F3A497 /* CRVActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2628612E18A0500F3A497 /* CRVActivityView.m */; };
 		F8E2629812E18A0500F3A497 /* CRVFileUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E2628712E18A0500F3A497 /* CRVFileUpload.h */; };
@@ -35,6 +37,10 @@
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSprocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSprocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8048357126AD77A00F0A5B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F820AB2812E2DA67004E5252 /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F820AB2912E2DA67004E5252 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		F820AB3412E2DA96004E5252 /* TestCRVStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCRVStringAdditions.h; sourceTree = "<group>"; };
+		F820AB3512E2DA96004E5252 /* TestCRVStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCRVStringAdditions.m; sourceTree = "<group>"; };
 		F8E2628512E18A0500F3A497 /* CRVActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRVActivityView.h; path = Classes/Sprocket/CRVActivityView.h; sourceTree = "<group>"; };
 		F8E2628612E18A0500F3A497 /* CRVActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRVActivityView.m; path = Classes/Sprocket/CRVActivityView.m; sourceTree = "<group>"; };
 		F8E2628712E18A0500F3A497 /* CRVFileUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRVFileUpload.h; path = Classes/Sprocket/CRVFileUpload.h; sourceTree = "<group>"; };
@@ -65,6 +71,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F820AB2512E2DA67004E5252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libSprocket.a */,
+				F820AB2812E2DA67004E5252 /* Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,10 +93,12 @@
 		0867D691FE84028FC02AAC07 /* Sprocket */ = {
 			isa = PBXGroup;
 			children = (
+				F820AB1E12E2DA3A004E5252 /* Tests */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				F820AB2912E2DA67004E5252 /* Tests-Info.plist */,
 			);
 			name = Sprocket;
 			sourceTree = "<group>";
@@ -129,6 +145,15 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		F820AB1E12E2DA3A004E5252 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F820AB3412E2DA96004E5252 /* TestCRVStringAdditions.h */,
+				F820AB3512E2DA96004E5252 /* TestCRVStringAdditions.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -170,6 +195,24 @@
 			productReference = D2AAC07E0554694100DB518D /* libSprocket.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		F820AB2712E2DA67004E5252 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F820AB2C12E2DA68004E5252 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				F820AB2312E2DA67004E5252 /* Resources */,
+				F820AB2412E2DA67004E5252 /* Sources */,
+				F820AB2512E2DA67004E5252 /* Frameworks */,
+				F820AB2612E2DA67004E5252 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = F820AB2812E2DA67004E5252 /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,9 +234,36 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* Sprocket */,
+				F820AB2712E2DA67004E5252 /* Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F820AB2312E2DA67004E5252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F820AB2612E2DA67004E5252 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2AAC07B0554694100DB518D /* Sources */ = {
@@ -208,6 +278,15 @@
 				F8E262A412E18A0500F3A497 /* NSDate+CRVDateAdditions.m in Sources */,
 				F8E262A612E18A0500F3A497 /* NSString+CRVStringAdditions.m in Sources */,
 				F8E262F612E18D1600F3A497 /* UIView+CRVViewAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F820AB2412E2DA67004E5252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F820AB3612E2DA96004E5252 /* TestCRVStringAdditions.m in Sources */,
+				F820AB3712E2DAA6004E5252 /* NSString+CRVStringAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +354,66 @@
 			};
 			name = Release;
 		};
+		F820AB2A12E2DA68004E5252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F820AB2B12E2DA68004E5252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -292,6 +431,15 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F820AB2C12E2DA68004E5252 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F820AB2A12E2DA68004E5252 /* Debug */,
+				F820AB2B12E2DA68004E5252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
