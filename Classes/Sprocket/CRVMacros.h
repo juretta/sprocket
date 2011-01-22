@@ -35,7 +35,7 @@
 // DEBUG
 // Project > Get Info > Configuration 'Debug' > Other C FLags '-D DEBUG'
 #ifdef DEBUG
-#  define CRVDEBUG(...) NSLog(__VA_ARGS__)
+#  define CRVDEBUG(msg, ...) NSLog((@"%s [Line %d] " msg), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
 #  define CRVDEBUGRECT(rect, msg) NSLog(@"%@. rect size -> width: %f, height: %f. Origin x: %f, y: %f", msg, rect.size.width, rect.size.height, rect.origin.x, rect.origin.y)
 #  define CRVDEBUGPOINT(point, msg) NSLog(@"%@ point -> x: %f, y: %f", msg, point.x, point.y)
 #  define CRVDEBUGSIZE(size, msg) NSLog(@"%@ size -> width: %f, height: %f", msg, size.width, size.height)
