@@ -26,18 +26,17 @@
 
 @implementation NSDate(CRVDateAdditions)
 
--(NSString *) humanReadable {
+-(NSString *) humanReadableWith:(NSDate*) referenceDate {
 	NSArray *periods = [[NSArray alloc] initWithObjects: 
 						@"second", @"minute", @"hour", @"day", @"week", @"month", @"year", @"decade", nil];
 	NSUInteger lengths[] = {60, 60, 24, 7, 4.35, 12, 10};
 	NSString *tense = @"";
 	NSTimeInterval interval;
-	NSDate *currentDate = [NSDate date];
-	if([currentDate isEqualToDate:[currentDate laterDate:self]]) {
-		interval = [currentDate timeIntervalSinceDate:self];
+	if([referenceDate isEqualToDate:[referenceDate laterDate:self]]) {
+		interval = [referenceDate timeIntervalSinceDate:self];
 		tense  = @"ago";
 	} else {
-		interval = [self timeIntervalSinceDate:currentDate];
+		interval = [self timeIntervalSinceDate:referenceDate];
 		tense  = @"from now";
 	}
 	int i;
@@ -52,6 +51,10 @@
 	}
 	[periods release];
 	return [NSString stringWithFormat: @"%d %@ %@", (int)interval, period, tense];
+}
+
+-(NSString *) humanReadable {
+	return [self humanReadableWith:[NSDate date]];
 }
 
 @end

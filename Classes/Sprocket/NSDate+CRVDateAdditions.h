@@ -27,4 +27,6 @@
 
 @interface NSDate(CRVDateAdditions)
 -(NSString *) humanReadable;
+
+-(NSString *) humanReadableWith:(NSDate*) referenceDate;
 @end
