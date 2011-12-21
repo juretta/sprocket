@@ -39,7 +39,7 @@
 		interval = [self timeIntervalSinceDate:referenceDate];
 		tense  = @"from now";
 	}
-	int i;
+	int i = -1;
 	for(int j = 0; interval >= lengths[j] && j < sizeof(lengths); j++) {
 		interval = interval/lengths[j];
 		i = j;
