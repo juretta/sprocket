@@ -63,8 +63,7 @@
 }
 
 -(id) initWithStyle:(CRVLabelStyle) theStyle {
-	id s = nil;
-	if(s = [self initWithFrame:CGRectZero]) {
+	if(self = [self initWithFrame:CGRectZero]) {
 		switch (theStyle) {
 			case CRVLabelStyleEmailBadge:
 				self.radius = 10.0;
@@ -74,7 +73,7 @@
 		}
 		style = theStyle;
 	}
-	return s;
+	return self;
 }
 
 
